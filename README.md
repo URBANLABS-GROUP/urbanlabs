@@ -4,6 +4,6 @@
 
 Система обеспечивает прозрачный контроль текущего состояния здания посредством сбора IoT телеметрии и других метрик в единое "озеро данных", а модуль аналитики позволяет дать аналитическую сводку с визуализацией и динамикой; механизмы поиска отклонений отслеживают возможные нарушения в работе здания.
 
-Технологический стек: java/spring/gradle, typescript/angular/webpack, postgresql/timescaledb, nginx, docker/docker-compose, ci (github actions), cd (ansible), grafana.
+Технологический стек: java/spring/gradle, typescript/angular/webpack, postgresql/timescaledb, rabbitmq, nginx, docker/docker-compose, ci (github actions), cd (ansible), grafana.
 
 ![Снимок экрана 2023-02-18 в 19 56 08](https://user-images.githubusercontent.com/1783893/219878210-17c17626-829f-436a-8881-ed33a675f245.png)
